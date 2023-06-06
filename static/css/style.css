@@ -1,0 +1,416 @@
+body {
+    background-image: url('/static/images/image\ 4.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    /* height: 820px; */
+    opacity: 0.9;
+    position: relative; /* Add this line */
+  }
+  .form-select.inputsearch::-ms-expand {
+    display: none;
+  }
+  
+  .form-select.inputsearch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+  }  
+  .container {
+    /* positio; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    margin-top: 120px;
+    width: 100%;
+    color: #ccc;
+    border-color: rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .container1{
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+    padding: 10px;
+
+  } */
+  .topic1{
+    font-size: 33px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .top{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .top2{
+    margin-top: 45px;
+    width: 100%;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .shift-right {
+    margin-left: 180px;
+  }
+  .navbar-brand::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #475326;
+    transform: scaleX(1);
+  }
+  .rounded-start{
+    margin-right: 8px;
+  }
+  .input-group-text{
+    border-radius: 30px;
+  }
+  .search{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .seconddiv{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .search-icon{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 8px;
+    width: 400px;
+  }
+
+  .inputsearch{
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    height: 100%;
+    width: 100%;
+  }
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: rgba(21, 182, 132, 1);
+    border-color: #28a745;
+  }
+  .btn-div{
+    margin-left: 10px;
+    width: 150px;
+  }
+  
+  .location{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 26%;
+  }
+  .location h3{
+    color: #FFFFFF;
+  }
+  .distext{
+    font-size: 12px;
+  }
+  .loc-info{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%
+  }
+  .info-content{
+    backdrop-filter: blur(10px);
+    background-color: rgba(105, 105, 105, 0.51);
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+  }
+  .info-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 19px;
+  }
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .altitude1 {
+    border-left: 1px solid rgb(148, 143, 143);
+    height: 70%;
+    align-items: center;
+    }
+  .coltext1{
+    margin-left: 7px;
+  }
+  .altitude2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(148, 143, 143);
+    height: 70%;
+    align-items: center;
+  }
+  .altitude1{
+    display: flex;
+    justify-content: center;
+  }
+  .botlogo{
+    width: 71px;
+    height: 71px;
+  }
+  .colorbtn.btn.btn-success {
+    background-color: rgba(8, 145, 103, 1);
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .colorbtn.btn.btn-success:hover{
+    background-color: #28a745;
+  }
+  
+  .colorbtn.btn.btn-outline-success {
+    border-color: rgba(8, 145, 103, 1);
+    color: rgba(8, 145, 103, 1);
+    border-width: 2px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .colorbtn.btn.btn-outline-success:hover {
+    background-color: rgba(8, 145, 103, 1);
+    color: white;
+  }
+
+  /* modal */
+  .input-icon {
+    position: relative;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+  }
+
+  .input-icon input {
+    padding-left: 30px; 
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25); 
+  }
+
+  .input-icon .icon {
+    position: absolute;
+    left: 8px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+  }
+  .modalmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modaltitle{
+    margin-left: 13%;
+  }
+  .iconbtn {
+    font-size: 20px; 
+  }
+  .modal-title{
+    color: rgba(8, 145, 103, 1)
+  }
+  .input-icon i {
+    opacity: 0.6; 
+    border: none;
+  }
+  .modal-header {
+    border-bottom: none !important; /* Remove the bottom border */
+    outline: none !important; /* Remove the outline */
+  }
+  .input-icon input::placeholder {
+    color: #999999; /* Adjust the color to a lighter shade */
+  }
+  .btn-div1{
+    margin-bottom: 14px;
+    margin-left: 56%;
+    /* margin-right: 1%; */
+  }
+  .button.close {
+    width: 10px; /* Adjust the width to decrease the button size */
+    height: 10px; /* Adjust the height to decrease the button size */
+    font-size: 14px; /* Adjust the font size to decrease the button size */
+  }
+
+  .colorbtn1.btn.btn-success {
+    width: 140px; 
+    background-color: rgba(8, 145, 103, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 9px;
+    height: 45px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+  }
+  @media (max-width: 768px) {
+    body {
+      background-image: url('/static/images/image\ 4.jpg');
+      background-size: 100% 100%;
+      width: 100%;
+      height: 600px;
+      opacity: 0.9;
+      position: relative; /* Add this line */
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0);
+      border: 1px solid #ccc;
+      margin-top: 70px;
+      width: 100%;
+      color: #ccc;
+      border-color: rgba(0, 0, 0, 0);
+      display: grid;
+      grid-template-columns: auto;
+      padding: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+    .topic1{
+      font-size: 22px;
+      color: #FFFFFF;
+      font-family: "Roboto", sans-serif;
+    }
+    .top{
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      font-family: "Roboto", sans-serif;
+    }
+    .shift-right {
+      margin-left: 110px;
+      width: 140px;
+    }
+    .top2{
+      margin-top: 28px;
+      width: 100%;
+    }
+    .search{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      width: 100%;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .search-icon{
+      display: grid;
+      grid-template-columns: 15% 75%;
+      background-color: #FFFFFF;
+      align-items: center;
+      border-radius: 8px;
+      width: 300px;
+    }
+    .btn-div{
+      margin-left: 10px;
+      width: 130px;
+    }
+    .location{
+      margin-top: 20%;
+    }
+    .botlogo{
+      width: 40px;
+      height: 40px;
+    }
+    .locate{
+      width: 40px;
+      height: 55px;
+    }
+    .loc-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .dis h3{
+      font-size: 20px;
+    }
+    .bottom p{
+      font-size: 12px;
+    }
+    .coltext h4{
+      font-size: 20px;
+    }
+    .coltext1 h4{
+      font-size: 20px;
+    }
+  }
+  
+  /* Styles for mobile screens */
+  @media (max-width: 599px) {  
+    body{
+      height: 100%;
+    }
+    .distext{
+      color: aliceblue;
+    }
+    .topic1{
+      font-size: 18px;
+      color: #FFFFFF;
+      font-family: "Roboto", sans-serif;
+    }
+    .search {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .top2{
+    margin-top: 60px;
+    margin-left: -5%;
+  }
+  .top{
+    margin-top: -10px;
+  }
+  .dis h3{
+    font-size: 18px;
+  }
+  .bottom p{
+    font-size: 8px;
+  }
+  .search-icon,
+  .btn-div {
+      margin: 10px 0;
+      height: 40px;
+      margin-left: 35px;
+      margin-top: 10px;
+  }
+  
+  .search-icon{
+    height: 100px;
+  }
+  .inputsearch{
+    height: 40px;
+  }
+
+  }
+ 
