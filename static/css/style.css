@@ -357,15 +357,15 @@ body {
       font-size: 12px;
     }
     .coltext h4{
-      font-size: 20px;
+      font-size: 16px;
     }
     .coltext1 h4{
-      font-size: 20px;
+      font-size: 16px;
     }
   }
   
   /* Styles for mobile screens */
-  @media (max-width: 599px) {  
+  @media (max-width: 800px) {  
     body{
       height: 100%;
     }
@@ -410,6 +410,27 @@ body {
   }
   .inputsearch{
     height: 40px;
+  }
+  .loc-info{
+    margin-top: 5%;
+  }
+  .location{
+    margin-top: 45%;
+  }
+  .container{
+    margin-top: 30%;
+  }
+  .loc-info>h4>p{
+    font-size: 1px;
+  }
+  .loc-info{
+    margin-top: 10%;
+  }
+  .top2{
+    margin-top: 30%;
+  }
+  .top{
+    margin-top: 5%;
   }
 
   }

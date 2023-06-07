@@ -468,5 +468,12 @@ body {
     .predres {
       width: 545px;
     }
+    .list{
+      width: 100%;
+      /* margin-left: 50px; */
+    }
+    .search{
+      margin-left: 1px;
+    }
   }
   
